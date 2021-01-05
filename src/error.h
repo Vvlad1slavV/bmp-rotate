@@ -1,7 +1,7 @@
 #ifndef BMP_ROTATE_ERROR_STATUS_H
 #define BMP_ROTATE_ERROR_STATUS_H
 #include <stdio.h>
-#include "bmp_io.h"
+#include "src/bmp_io.h"
 
 struct status { const char* err_descr; const uint8_t err_code; };
 
