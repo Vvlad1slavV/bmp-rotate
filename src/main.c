@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "src/bmp_io.h"
-#include "src/bmp_struct.h"
+#include "bmp_io.h"
+#include "bmp_struct.h"
 #include "util.h"
 #include "error.h"
-#include "src/bmp_rotate.h"
+#include "bmp_rotate.h"
 #include <stdlib.h>
 
 #define STANDART_OUT_FILE "output.bmp"
@@ -60,3 +60,5 @@ int main( int argc, char** argv ) {
     }
     return 0;
 }
+
+// Windows - top, if you're not a programer.
